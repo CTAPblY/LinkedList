@@ -175,12 +175,12 @@ class Queue
 {
 public:
 
-    void push(List tr, int val)
+    void push(List& tr, int val)
     {
         tr.add(val);
     }
 
-    void remove(List ptr)
+    void remove(List& ptr)
     {
         ptr.remove();
     }
